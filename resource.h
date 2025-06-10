@@ -1,8 +1,9 @@
 //{{NO_DEPENDENCIES}}
-// Archivo de inclusión generado de Microsoft Visual C++.
+// Archivo de inclusión generado por Microsoft Visual C++.
 // Usado por bin2h.rc
 //
-#define IDC_MYICON                      2
+#pragma once
+
 #define IDD_BIN2H_DIALOG                102
 #define IDS_APP_TITLE                   103
 #define IDD_ABOUTBOX                    103
@@ -17,19 +18,18 @@
 #define IDB_PNG2                        131
 #define IDI_ICON2                       132
 #define IDI_ICON3                       133
+
+// Controles del diálogo
 #define IDC_COMMAND1                    1001
+#define IDC_CUSTOM2                     1003
+#define IDC_EDIT1                       1004
+#define IDC_CUSTOM1                     1005
+#define IDB_WBLG  3001
+// Comandos de menú
 #define ID_ARCHIVO_CARGARBINARIO        32771
 #define ID_ARCHIVO_CONVERTIR            32772
-#define IDC_STATIC                      -1
 
-// Next default values for new objects
-// 
-#ifdef APSTUDIO_INVOKED
-#ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NO_MFC                     1
-#define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32773
-#define _APS_NEXT_CONTROL_VALUE         1002
-#define _APS_NEXT_SYMED_VALUE           110
+#ifndef IDC_STATIC
+#define IDC_STATIC1                      -1
 #endif
-#endif
+

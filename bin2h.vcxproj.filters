@@ -27,9 +27,15 @@
     <ClInclude Include="bin2h.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="TextShadow.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bin2h.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShadow.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -61,6 +67,9 @@
       <Filter>Archivos de recursos</Filter>
     </Image>
     <Image Include="bin2h3.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="PAREJA.png">
       <Filter>Archivos de recursos</Filter>
     </Image>
   </ItemGroup>

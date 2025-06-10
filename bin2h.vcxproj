@@ -127,9 +127,11 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextShadow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bin2h.cpp" />
+    <ClCompile Include="TextShadow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="bin2h.rc" />
@@ -142,6 +144,7 @@
     <Image Include="bin2h3.ico" />
     <Image Include="bin2h3.png" />
     <Image Include="icon1.ico" />
+    <Image Include="PAREJA.png" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
