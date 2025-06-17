@@ -6,7 +6,6 @@
 ///      Aplicaciones de Escritorio Windows C++      ///
 ///                  TextShadow.h                    ///
 ////////////////////////////////////////////////////////
-
 #pragma once
 
 #ifdef TEXTSHADOW_EXPORTS
